@@ -1,0 +1,13 @@
+{
+    "name": "DenoojShippingSms",
+    "alias": "denoojshippingsms",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DenoojShippingSms\\Providers\\DenoojShippingSmsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

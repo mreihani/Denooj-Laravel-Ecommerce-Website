@@ -1,0 +1,13 @@
+{
+    "name": "Redirects",
+    "alias": "redirects",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Redirects\\Providers\\RedirectsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

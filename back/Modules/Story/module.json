@@ -1,0 +1,13 @@
+{
+    "name": "Story",
+    "alias": "story",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Story\\Providers\\StoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

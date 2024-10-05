@@ -1,0 +1,101 @@
+.divTable{
+    display: table;
+    width: 100%;
+}
+.divTableRow {
+    display: table-row;
+    transition: 100ms;
+}
+
+.divTableHead{
+    background: #eee!important;
+}
+.divTableHead .divTableCell{
+    border-color: #ddd;
+}
+.divTableCell {
+    display: table-cell;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    vertical-align: middle;
+}
+.divTableCell:last-of-type {
+    border-left: none;
+}
+.divTableRow:last-of-type .divTableCell {
+    border-bottom: none;
+}
+.divTableRow:hover{
+    background: #f7f7f7;
+}
+.divTableBody {
+    display: table-row-group;
+}
+.img-table{
+    width: 60px;
+    border-radius: 4px;
+}
+.box-table{
+    overflow-x: auto;
+    padding: 0!important;
+    border-radius: 10px!important;
+    border: 1px solid #eee;
+}
+/* width */
+.box-table::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+.box-table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.box-table::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.box-table::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+
+.headColBadge{
+    font-size: 18px;
+    height: 20px;
+    line-height: 19px;
+    width: 20px;
+    display: inline-block;
+    color: #bbb;
+}
+.headColBadge:hover{
+    color: var(--colorBlack);
+}
+
+
+@media (max-width: 992px) {
+    .divTable{
+        width: 992px;
+    }
+
+    .divTableCell{
+        min-width: 100px;
+    }
+
+    .divTableHead .divTableCell:last-of-type{
+        border-left: 1px solid #ddd;
+    }
+
+    .divTableCell.wide{
+        min-width: 160px;
+    }
+
+}

@@ -1,0 +1,71 @@
+.note-editor{
+    direction: ltr!important;
+}
+.note-editor .dropdown-toggle:not(.dropdown-toggle-split)::after {
+    display: none!important;
+}
+.note-dropdown-item > *{
+    font-size: 16px!important;
+    margin: 0!important;
+    padding: 0!important;
+    text-align: right;
+    font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+    overflow: hidden;
+}
+.note-placeholder{
+    width: 100%;
+}
+.note-editor.note-airframe .note-placeholder, .note-editor.note-frame .note-placeholder{
+    padding: 30px;
+    font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+}
+.note-modal.open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note-modal-footer {
+    height: auto;
+    text-align: right;
+    overflow: hidden;
+    padding: 15px 30px;
+}
+
+.note-modal{
+    z-index: 9999;
+}
+.note-editor .note-toolbar .note-color-all .note-dropdown-menu, .note-popover .popover-content .note-color-all .note-dropdown-menu{
+    width: 350px;
+}
+.note-btn-group.open .note-dropdown-menu, .note-dropdown-item {
+    text-align: right;
+    padding: 5px 8px;
+}
+
+.note-modal-body .checkbox {
+    text-align: left;
+}
+.note-modal-body .checkbox input {
+    margin-right: 5px;
+}
+
+.popover-content .note-btn-group.note-link{
+    display: flex;
+}
+.note-editor.note-airframe .note-editing-area, .note-editor.note-frame .note-editing-area {
+    direction: rtl;
+    font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+}
+
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable{
+    padding: 30px;
+}
+
+.note-modal-content label{
+    font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+    margin: 12px 0 2px;
+    font-weight: normal;
+}
+.note-modal-content .btn{
+    font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+}

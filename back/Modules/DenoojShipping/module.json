@@ -1,0 +1,13 @@
+{
+    "name": "DenoojShipping",
+    "alias": "denoojshipping",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DenoojShipping\\Providers\\DenoojShippingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

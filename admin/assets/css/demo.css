@@ -1,0 +1,545 @@
+/*
+* demo.css
+* File include item demo only specific css only
+******************************************************************************/
+
+.light-style .menu .app-brand.demo {
+  height: 64px;
+}
+span.tox-statusbar__branding {
+    display: none;
+}
+.dark-style .menu .app-brand.demo {
+  height: 64px;
+}
+.no-pointer-events{
+    pointer-events: none!important;
+}
+.app-brand-logo.demo {
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+.pickr .pcr-button{
+    border: 1px solid black;
+}
+.app-brand-logo.demo svg {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.app-brand-text.demo {
+  font-size: 1.75rem;
+  letter-spacing: -0.45px;
+}
+
+/* ! For .layout-navbar-fixed added fix padding top tpo .layout-page */
+.layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
+  padding-top: 64px !important;
+}
+
+/* Navbar page z-index issue solution */
+.content-wrapper .navbar {
+  z-index: auto;
+}
+
+/*
+* Content
+******************************************************************************/
+
+.demo-blocks > * {
+  display: block !important;
+}
+
+.demo-inline-spacing > * {
+  margin: 1rem 0.375rem 0 0 !important;
+}
+
+/* ? .demo-vertical-spacing class is used to have vertical margins between elements. To remove margin-top from the first-child, use .demo-only-element class with .demo-vertical-spacing class. For example, we have used this class in forms-input-groups.html file. */
+.demo-vertical-spacing > * {
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-lg > * {
+  margin-top: 1.875rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing-lg.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-xl > * {
+  margin-top: 5rem !important;
+  margin-bottom: 0 !important;
+}
+.demo-vertical-spacing-xl.demo-only-element > :first-child {
+  margin-top: 0 !important;
+}
+
+.rtl-only {
+  display: none !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+[dir='rtl'] .rtl-only {
+  display: block !important;
+}
+
+/*
+* Layout demo
+******************************************************************************/
+
+.layout-demo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.layout-demo-placeholder img {
+  width: 900px;
+}
+.layout-demo-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.small-editor .ql-editor{
+    min-height: 150px!important;
+}
+
+.font-10 {
+    font-size: 10px !important;
+}
+.font-11 {
+    font-size: 11px !important;
+}
+.font-12 {
+    font-size: 12px !important;
+}
+
+.font-13 {
+    font-size: 13px !important;
+}
+
+.font-14 {
+    font-size: 12px !important;
+}
+
+.font-15 {
+    font-size: 15px !important;
+}
+
+.font-16 {
+    font-size: 16px !important;
+}
+.font-17 {
+    font-size: 17px !important;
+}
+.font-18 {
+    font-size: 18px !important;
+}
+.font-19 {
+    font-size: 19px !important;
+}
+.font-20 {
+    font-size: 20px !important;
+}
+.font-21 {
+    font-size: 21px !important;
+}
+.font-22 {
+    font-size: 22px !important;
+}
+.font-23 {
+    font-size: 23px !important;
+}
+.font-24 {
+    font-size: 24px !important;
+}
+.font-25 {
+    font-size: 25px !important;
+}
+.font-26 {
+    font-size: 26px !important;
+}
+.font-27 {
+    font-size: 27px !important;
+}
+.font-28 {
+    font-size: 28px !important;
+}
+.font-29 {
+    font-size: 29px !important;
+}
+.font-30 {
+    font-size: 30px !important;
+}
+.fw-100{
+    font-weight: 100!important;
+}
+.fw-300{
+    font-weight: 300!important;
+}
+.fw-800{
+    font-weight: 800!important;
+}
+.fw-900{
+    font-weight: 900!important;
+}
+.fw-990{
+    font-weight: 990!important;
+}
+
+.lh-24{
+    line-height: 24px!important;
+}
+.lh-26{
+    line-height: 26px!important;
+}
+.lh-28{
+    line-height: 28px!important;
+}
+.lh-30{
+    line-height: 30px!important;
+}
+.lh-32{
+    line-height: 32px!important;
+}
+.lh-34{
+    line-height: 34px!important;
+}
+.lh-36{
+    line-height: 36px!important;
+}
+.lh-38{
+    line-height: 38px!important;
+}
+.lh-44{
+    line-height: 44px!important;
+}
+.lh-52{
+    line-height: 52px!important;
+}
+
+.dir-ltr {
+    direction: ltr !important;
+}
+
+.dir-rtl {
+    direction: rtl !important;
+}
+
+
+.tagify + input, .tagify + textarea{
+    display: none;
+}
+
+.badge.badge-notifications.badge-static:not(.badge-dot) {
+    padding: 0;
+    font-weight: 100;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    position: static;
+    float: none;
+    display: inline-block;
+    margin: 0;
+    transform: none;
+}
+
+
+.image-chooser{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: start;
+    justify-content: start;
+    background: #eee;
+    border-radius: 10px;
+    padding: 15px;
+}
+.image-chooser img{
+    margin: 15px 0;
+    height: 60px;
+    width: auto;
+    max-width: 100%;
+}
+
+.cke_reset_all, .cke_reset_all *, .cke_reset_all a, .cke_reset_all textarea{
+    font-family: "primary-font", "segoe ui", "tahoma"!important;
+}
+
+.accordion-item-container.sortable-ghost .accordion-button{
+    border: 2px dashed rgba(43,148,255,1)!important;
+}
+.accordion-item-container.sortable-chosen .accordion-button{
+    background: rgba(43,148,255,0.15)!important;
+
+}
+.accordion-drag-target{
+    background: red!important;
+    padding: 20px!important;
+}
+.accordion-item-container.sortable-drag .accordion-button{
+
+}
+.sortable-fallback {
+    background: green!important;
+    padding-bottom: 30px!important;
+}
+
+.accordion .menu-item-accordion{
+    box-shadow: 0 1px 1px rgba(0,0,0,.04)!important;
+}
+.menu-item-accordion .accordion-button{
+    background: #f6f7f7!important;
+    border: 1px solid #dcdcde!important;
+    border-radius: 6px!important;
+}
+.menu-item-accordion.active .accordion-button{
+    border-radius: 6px 6px 0 0!important;
+}
+.menu-item-accordion .accordion-collapse{
+    border: 1px solid #dcdcde!important;
+    border-radius: 0 0 6px 6px!important;
+}
+#accordionItems{
+    position: relative;
+}
+
+.overlay-spinner{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.6);
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+#accordionItems.is-loading .overlay-spinner{
+    display: flex!important;
+}
+
+
+.loading-gif-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: rgba(255,255,255,0.8);
+}
+.loading-gif-container img{
+    max-width: 300px;
+    height: auto;
+}
+
+
+.accordion-outlined .accordion-item{
+    border: 2px solid #ddd!important;
+}
+
+.accordion-outlined .accordion-item .accordion-button{
+    background: #f7f7f7;
+}
+
+.nav-pills-product .nav-link{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+}
+.nav-pills-product .nav-link i{
+    margin-left: 5px;
+}
+#variationsAccordion .accordion-outlined .accordion-item .accordion-button{
+    background: #fff;
+}
+#variationsAccordion .accordion-outlined .accordion-item{
+    border: 1px solid #eee!important;
+}
+.color-square{
+    display: inline-block;
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+}
+[dir=rtl] .accordion-outlined .accordion-button::after{
+    margin-right: 0!important;
+}
+
+
+/***************************** tickets ***************************/
+
+.ticket-response {
+    width: 100%;
+    display: flex;
+}
+.ticket-response.left{
+    flex-direction: row-reverse;
+}
+.ticket-response-avatar{
+    width: 100px;
+    flex-shrink: 0;
+}
+.ticket-response.left .ticket-response-avatar{
+    text-align: left;
+}
+.ticket-response-avatar img{
+    width: 50px;
+    height: auto;
+    margin-bottom: 8px;
+}
+.ticket-response-avatar .title{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ticket-response-body{
+    width: 100%;
+    background: #f4f5f8;
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+    box-shadow: -1px 2px 1px #d7d8da;
+}
+.ticket-response.left .ticket-response-body{
+    background: #5a8dee;
+    color: #fff;
+    box-shadow: -1px 2px 1px rgba(65, 65, 65, 0.2);
+}
+.ticket-response-body:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #f4f5f8;
+    border-style: solid;
+    border-width: 6px 0 6px 10.4px;
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: auto;
+    right: -8px;
+}
+.ticket-response.left .ticket-response-body:after{
+    border-color: transparent #5a8dee transparent transparent ;
+    border-width: 6px 10.4px 6px 0;
+
+    left: -8px;
+    right: auto;
+}
+.ticket-response-body .date{
+    display: block;
+    margin-top: 20px;
+    color:var(--colorGray);
+    font-size: 13px;
+}
+
+
+
+/*************************** page builder *************************/
+
+.row-container{
+    margin-bottom: 25px;
+    border: 2px solid #ddd!important;
+    padding: 15px;
+    position: relative;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.row-container:hover{
+    border-color: #5a8dee!important;
+}
+
+.dashed-style-box{
+    border: 2px dashed #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.dashed-style-box:hover{
+    border-color: #5a8dee;
+}
+
+.row-container-option{
+    background: #5a8dee;
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    border-radius: 6px 6px 0 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -30px;
+    opacity: 0;
+    visibility: hidden;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms;
+}
+.row-container:hover .row-container-option{
+    opacity: 1;
+    visibility: visible;
+}
+.row-container-option > span{
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+.row-container-option > span:hover{
+    opacity: .7;
+}
+
+.custom-option-icon .custom-option-body svg{
+    width: 80px!important;
+    height: 80px!important;
+    fill: #ddd;
+}
+.custom-option-icon .custom-option-body svg:hover{
+    fill: #555;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .nav-pills-product{
+        min-width: 210px;
+        padding-left: 15px!important;
+    }
+}

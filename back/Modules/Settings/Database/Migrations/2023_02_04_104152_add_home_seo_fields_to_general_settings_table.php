@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddHomeSeoFieldsToGeneralSettingsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('general_settings', function (Blueprint $table) {
+            $table->string('home_h1_hidden',255)->nullable();
+            $table->string('home_nav_title',255)->nullable();
+            $table->string('home_canonical',512)->nullable();
+            $table->string('home_meta_description',512)->nullable();
+            $table->string('home_title_tag',255)->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('general_settings', function (Blueprint $table) {
+            //
+        });
+    }
+}
